@@ -1,4 +1,4 @@
-sensirion-i2c-svm41
+sensirion-i2c-svm4x
 ===================
 
 This package contains the driver for the Sensirion SVM41 Evaluation Kit using
@@ -12,4 +12,4 @@ etc.
 Installation and Usage
 ----------------------
 
-The user manual is available at https://sensirion.github.io/python-i2c-svm41/.
+The user manual is available at https://sensirion.github.io/python-i2c-svm4x/.

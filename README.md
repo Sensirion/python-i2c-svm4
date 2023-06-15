@@ -1,13 +1,15 @@
-# Python Driver for Sensirion SVM41 Evaluation Kit
+# Python Driver for Sensirion SVM4x Evaluation Kit
 
 This repository contains the Python driver to communicate with the Sensirion
-SVM41 Evaluation Kit using the I²C interface. For details, please read the
+SVM4x Evaluation Kit using the I²C interface. For details, please read the
 package description in [README.rst](README.rst).
+
+The SVM4x evaluation kit covers evaluation of the SGP40 and SGP41 sensors.
 
 ## Usage
 
 See package description in [README.rst](README.rst) and user manual at
-https://sensirion.github.io/python-i2c-svm41/.
+https://sensirion.github.io/python-i2c-svm4x/.
 
 ## Development
 
@@ -46,7 +48,7 @@ pytest                          # Run all tests
 
 The tests with the marker `needs_device` have following requirements:
 
-- An SVM41 device must be connected to a
+- An SVM4x device must be connected to a
   [SensorBridge](https://www.sensirion.com/sensorbridge/) on port 1.
   - **WARNING: Some tests modify non-volatile configurations of the device,
     restore factory defaults etc.! Do not run the tests on a device which you
