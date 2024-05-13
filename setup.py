@@ -42,8 +42,8 @@ setup(
         'test': [
             'flake8~=3.9.2',
             'mock~=3.0.0',
-            'pytest~=4.6.11',
-            'pytest-cov~=2.6.0',
+            'pytest~=6.2.5',
+            'pytest-cov~=3.0.0',
             'sensirion-shdlc-sensorbridge~=0.1.1',
         ],
     },
